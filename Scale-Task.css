@@ -1,0 +1,289 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Bungee Spice', sans-serif;
+}
+.upper-heading{
+    text-align: center;
+}
+.text-yellow{
+    color: rgb(210, 175, 59);
+}
+.Big-label{
+    font-size: 3rem;
+    
+
+}
+#Parent{ 
+    display: flex;
+    flex-direction: row;
+} 
+.left{
+    flex: 2;
+}
+.right{
+    flex: 1;
+    position: relative;
+}
+.back-circle{
+     background-color: rgba(87, 97, 112, 0.453);
+     border-radius: 50%;
+     height: 75%;
+     width: 75%;
+     position: relative;
+     z-index: -2;
+}
+.hero-image{
+    margin-right:5rem;
+    height: 23rem;
+    margin-top: -3rem;
+}
+.hero-text-name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: 4.5rem;
+    font-weight: bold;
+    position: absolute;
+    z-index: -1;
+     
+}
+.hero-text-surname{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-right: -7rem; 
+    margin-bottom: -2rem;
+}
+.section-2{
+    background-color: rgba(87, 97, 112, 0.453) ;
+    margin: 4rem;
+    border-radius: 10px;
+    padding: 2rem; 
+    text-align: center;
+}
+.section-2-box{
+    background-color:rgba(87, 97, 112, 0.847)  ;
+    padding: 3rem;
+    border-radius: 10px; 
+}
+.section-3{
+    margin-left: 25rem;
+    margin-right: 25rem;
+     
+}
+.section-3 button{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    height: 5rem;
+    width: 25rem;
+    font-size: 2rem; 
+}
+.section-4 h1{
+    text-align:center;
+    margin-top: 5rem;
+     
+}
+.section-4 div{
+    background-color: rgba(87, 97, 112, 0.453) ;
+    margin: 4rem;
+    border-radius: 10px;
+    padding: 2rem; 
+
+} 
+.section-4 p{
+    background-color:rgba(87, 97, 112, 0.847)  ;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+.img-heading-line{
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+.right-sign{
+    color:white;
+    background-color: green;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.section-5{
+    text-align: center; 
+}
+.section-5-text{
+    margin-top: 4rem;
+}
+.countdown {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .countdown-item {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .countdown-item span {
+    display: block;
+    font-size: 24px;
+  }
+  
+ 
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-weight: bold;
+  }
+  
+.countdown div{
+    background-color: rgba(87, 97, 112, 0.453);
+    padding: 1rem;
+    width: 5rem;
+}
+.countdown div:hover{
+     background-color: white;
+     color: black;
+}
+.section-6 h1{
+    text-align:center;
+    margin-top: 5rem;
+     
+}
+.section-6 div{
+    background-color: rgba(87, 97, 112, 0.453) ;
+    margin: 4rem;
+    border-radius: 10px;
+    padding: 2rem; 
+
+} 
+.section-6 p{
+    background-color:rgba(87, 97, 112, 0.847)  ;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+ 
+.btn{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    height: 5rem;
+    width: 25rem;
+    font-size: 2rem; 
+    margin-left: 18rem;
+     
+}
+.section-7 h1{
+    text-align:center;
+    margin-top: 5rem;
+}
+
+ .video-container{
+    display: flex;
+    margin: 2rem ; 
+ }
+ .video-container div{ 
+    margin-left: 5rem;
+ }
+ .video-container iframe{
+    border-radius: 20px;
+ }
+ .section-8 div{
+    background-color: rgba(87, 97, 112, 0.453) ;
+    margin: 4rem;
+    border-radius: 10px;
+    padding: 2rem; 
+
+} 
+ .section-8 p{
+    background-color:rgba(87, 97, 112, 0.847)  ;
+    padding: 1rem;
+    border-radius: 10px;
+ }
+ .section-8 h1{
+    text-align:center;
+    margin-top: 5rem;
+}
+.section-8 h2{
+    text-align: center; 
+
+}
+.wrong-sign{
+    color:white;
+    background-color:red;
+    border-radius: 50%;
+    margin: 5px;
+    width: 10px;
+}
+.section-9 div{
+    background-color: rgba(87, 97, 112, 0.453) ;
+    margin: 4rem;
+    border-radius: 10px;
+    padding: 2rem; 
+
+} 
+ .section-9 p{
+    
+    
+ }
+ .section-9 h1{
+    text-align:center;
+    margin-top: 5rem;
+}
+.section-9 h2{
+    text-align: center; 
+
+}
+.yellow-sign{
+    color: black;
+     font-size: 2rem;
+     font-weight: bold;
+     background-color: rgb(210, 175, 59);
+     margin: 1rem;
+     
+     
+}
+.section-10{
+    background-color: rgba(234, 236, 240, 0.112)  ;
+    padding: 2rem;
+
+}
+.section-10 h2{
+    text-align: center;
+}
+.section-10{
+    text-align: center;
+}
+.section-10 img{
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    #Parent {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        flex: 1;
+        width: 100%;
+    }
+
+    .hero-image {
+        margin-right: 0;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .hero-text-name,
+    .hero-text-surname {
+        font-size: 3rem;
+    }
+}
